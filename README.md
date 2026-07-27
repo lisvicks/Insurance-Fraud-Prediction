@@ -3,6 +3,8 @@ Insurance fraud prediction in R using class balancing, Random Forest, and valida
 
 ## Model Selection
 
+The analysis was conducted using a dataset of approximately 100000 insurance claims provided as part of a university course. The original dataset is not publicly redistributed in this repository.
+
 Several classification approaches were explored, including logistic regression, Random Forest, and XGBoost.
 
 Because fraudulent claims represented a minority class, random undersampling was applied to the training data. The final model was selected based on its ability to balance overall accuracy with fraud-case recall.
